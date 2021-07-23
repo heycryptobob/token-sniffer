@@ -5,6 +5,16 @@
   "author": "Spaceman Bob <heycryptobob@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25"
+    "axios": "^0.21.1",
+    "blessed": "^0.1.81",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5",
+    "node-cron": "^3.0.0",
+    "stormdb": "^0.5.1",
+    "timeago.js": "^4.0.2",
+    "yargs": "^17.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
