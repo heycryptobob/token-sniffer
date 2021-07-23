@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import beeper from "beeper";
+// import beeper from "beeper";
 import axios from "axios";
 import { format } from "timeago.js";
 import { addContract, getContracts, initDb } from './db.js';
@@ -64,7 +64,7 @@ async function query(term) {
   const oldContracts = getContracts();
   const newContracts = await diff(cleaned, oldContracts);
   if (newContracts.length !== oldContracts.length) {
-    await beeper(5);
+    // await beeper(5);
   }
 }
 
