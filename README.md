@@ -6,8 +6,9 @@ Sniff out new contracts based on their name.
 
 1. Clone the repo
 2. Enter the folder
-3. run `yarn install`
-4. run `yarn start --term "Token Name"` (where "Token Name" is replaced by the name of the token you wish to sniff out.)
+3. Make sure `yarn` is installed: https://classic.yarnpkg.com/en/docs/install/
+4. run `yarn install`
+5. run `yarn start --term "Token Name"` (where "Token Name" is replaced by the name of the token you wish to sniff out.)
 
 ## Notes
 
