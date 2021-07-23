@@ -15,12 +15,12 @@ DYOR. This is not an exact science. This tool searches for tokens but it doesn't
 
 ## Tips
 
-1. You can run the app in multiple Terminal tabs with different search terms. i.e.
+You can run the app in multiple Terminal tabs with different search terms. i.e.
 
-Tab 1: run `yarn start --term "ShibaGold"
-Tab 2: run `yarn start --term "Shiba Gold"
-Tab 3: run `yarn start --term "$hibaGold"
-Tab 4: run `yarn start --term "$Shiba Gold"
-Tab 5: run `yarn start --term "$Gold"
+1. run `yarn start --term "ShibaGold"` in Tab 1
+2. run `yarn start --term "Shiba Gold"` in Tab 2
+3. run `yarn start --term "$hibaGold"` in Tab 3
+4. run `yarn start --term "$Shiba Gold"` in Tab 4
+5. run `yarn start --term "$Gold"` in Tab 5
 
 etc.
