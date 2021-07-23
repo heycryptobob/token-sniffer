@@ -1,0 +1,7 @@
+{
+  "name": "token-sniffer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Spaceman Bob <heycryptobob@gmail.com>",
+  "license": "MIT"
+}
